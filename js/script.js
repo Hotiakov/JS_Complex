@@ -4,7 +4,7 @@ const changeString = function (text) {
         return;
     }
     let tmpText = text.trim();
-    if (text.length >= 30) {
+    if (text.length > 30) {
         tmpText = tmpText.substring(0, 30);
         tmpText += "...";
     }
