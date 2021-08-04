@@ -8,9 +8,23 @@ for (let i = 0; i < arr.length; i++) {
 
 console.log("");
 
+
 //задание 2
+const isPrime = function (n) {
+    if (n === 2)
+        return true;
+    if (n === 1 || n % 2 === 0)
+        return false;
+    for (let i = 3; i < n; i += 2) {
+        if (n % i === 0)
+            return false;
+    }
+    return true;
+};
+
 console.log("Задание 2");
-let arrayOfPrime = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
-for (let i = 0; i < arrayOfPrime.length; i++) {
-    console.log("Простое число: " + arrayOfPrime[i] + " Его делители: " + "1, " + arrayOfPrime[i]);
+
+for (let i = 1; i <= 100; i++) {
+    if (isPrime(i))
+        console.log("Простое число: " + i + " Его делители: " + "1, " + i);
 }
