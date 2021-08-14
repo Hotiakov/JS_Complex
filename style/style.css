@@ -1,0 +1,86 @@
+.title {
+  text-align: center; }
+
+.tabs {
+  margin-bottom: 30px;
+  text-align: center; }
+
+.tab {
+  margin-right: 15px;
+  padding: 11px 21px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #369e7f;
+  cursor: pointer; }
+  .tab:last-child {
+    margin-right: 0; }
+  .tab.active {
+    background-color: #46caa2; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  margin: 0 auto; }
+
+.input {
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #8ed8d2;
+  border: none;
+  border-radius: 4px;
+  outline: none; }
+  .input::placeholder {
+    color: #efefef; }
+
+.btn {
+  padding: 15px 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #67f3e7;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.registration {
+  display: none; }
+
+.LogIn {
+  display: none; }
+
+.dataBase {
+  display: none; }
+  .dataBase__table {
+    padding: 0 20px; }
+    .dataBase__table_caption {
+      font-size: 25px; }
+    .dataBase__table_header {
+      margin-bottom: 20px;
+      font-size: 20px;
+      font-weight: bold; }
+    .dataBase__table_node {
+      margin-bottom: 15px; }
+    .dataBase__table_cell {
+      display: flex;
+      justify-content: space-between; }
+    .dataBase__table_login {
+      flex: 1 1 15%; }
+    .dataBase__table_firstName {
+      flex: 1 1 10%; }
+    .dataBase__table_lastName {
+      flex: 1 1 10%; }
+    .dataBase__table_password {
+      flex: 1 1 10%; }
+    .dataBase__table_date {
+      flex: 1 1 40%; }
+    .dataBase__table_delete {
+      flex: 1 1 15%; }
+
+.content__wrapper > .active {
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */
