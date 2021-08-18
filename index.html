@@ -5,12 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        .justBlackCircle{
+            position: absolute;
+            top: 300px;
+            left: 500px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: black;
+        }
+        .justSmallGreenCircle{
+            position: absolute;
+            top: 325px;
+            left: 525px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: green;
+        }
+        .btn{
+            padding: 15px 20px;
+            background-color: gray;
+        }
+    </style>
 </head>
 <body>
-    <input type="text" id="input">
-    <p class="inputText"></p>
-
     
+    <div class="justBlackCircle"></div>
+    <div class="justSmallGreenCircle"></div>
+    <button class="startBtn btn">Start</button>
+    <button class="resetBtn btn">Reset</button>
     <script src="js/script.js"></script>
 </body>
 </html>
